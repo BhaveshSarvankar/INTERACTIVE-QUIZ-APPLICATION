@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CS Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Quiz Challenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>💻 CS Quiz</h1>
-        <div class="score">Score: <span id="score">0</span>/<span id="total">0</span></div>
+    <div id="quiz-container">
+        <h1>Tech Quiz Challenge</h1>
+        
         <div id="quiz">
+            <div id="progress">
+                <span>Question: <span id="current">1</span>/<span id="total">4</span></span>
+                <span>Score: <span id="score">0</span></span>
+            </div>
+            
             <div id="question"></div>
+            
             <div id="options"></div>
-            <div id="feedback"></div>
-            <button id="next" class="btn">Next →</button>
+            
+            <div id="feedback" class="hidden"></div>
         </div>
+        
         <div id="results" class="hidden">
-            <h2>🎉 Results</h2>
-            <div class="final-score"><span id="final-score">0</span>%</div>
-            <button id="restart" class="btn">Restart Quiz</button>
+            <div class="results-header">
+                <h2>Quiz Completed!</h2>
+                <div class="trophy-icon">🏆</div>
+            </div>
+            
+            <div class="score-display">
+                <div class="score-circle">
+                    <span id="final-score">0</span>%
+                </div>
+                <div class="score-details">
+                    <p><span id="correct-count">0</span> correct out of <span id="total-questions">0</span></p>
+                </div>
+            </div>
+            
+            <div class="performance-meter">
+                <div class="meter-bar">
+                    <div class="meter-fill" id="meter-fill"></div>
+                </div>
+                <div class="meter-labels">
+                    <span>Beginner</span>
+                    <span>Intermediate</span>
+                    <span>Expert</span>
+                </div>
+            </div>
+            
+            <div class="question-breakdown">
+                <h3>Question Breakdown</h3>
+                <div id="question-review"></div>
+            </div>
+            
+            <div class="action-buttons">
+                <button id="restart" class="btn-restart">↻ Restart Quiz</button>
+                <button id="share" class="btn-share">📤 Share Results</button>
+            </div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
