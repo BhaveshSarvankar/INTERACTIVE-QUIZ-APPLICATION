@@ -49,47 +49,9 @@ The primary goal of this application is to provide a user-friendly environment w
 - *Styling:* CSS3 with Flexbox/Grid for responsive layouts and smooth animations  
 - *Hosting:* GitHub Pages (free, easy deployment for static websites)  
 
-## Setup Instructions
+## OUTPUT
 
-1. Clone the repository to your local machine:  
-   ```bash
-   git clone <repository-url>
-Open the project folder and modify script.js to add or edit quiz questions.
-
-Open index.html in any web browser to run the quiz.
-
-For hosting, simply push the repository to GitHub and enable GitHub Pages in the repository settings.
-
-Ideal Users
-Coding bootcamp students looking for a quick self-assessment tool.
-
-Individuals preparing for technical interviews.
-
-Educators and trainers seeking a lightweight quiz tool for classroom exercises.
-
-Anyone who wants to perform quick knowledge assessments in a convenient and interactive format.
-
-Contribution
-Contributions to improve this project are welcome. You can help by:
-
-Adding new quiz topics or questions
-
-Enhancing the UI/UX for better user experience
-
-Implementing additional analytics or score tracking
-
-Reporting bugs or suggesting improvements
-
-To contribute, follow these steps:
-
-Fork the repository
-
-Create your feature branch: git checkout -b feature/YourFeatureName
-
-Commit your changes: git commit -m "Add some feature"
-
-Push to your branch: git push origin feature/YourFeatureName
-
-Open a Pull Request and describe your changes
+<img width="1919" height="869" alt="Image" src="https://github.com/user-attachments/assets/d5d4f497-ab7c-40e3-8465-8a93bbb1a7fa" />
 
 Tech Quiz Challenge combines simplicity, interactivity, and responsiveness to provide a seamless learning experience for all users. Whether for self-study, exam prep, or interview practice, this quiz platform is designed to be intuitive, engaging, and educational
+
